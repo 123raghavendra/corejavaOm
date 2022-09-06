@@ -1,0 +1,8 @@
+package com.xworkxz.football1;
+
+public class Football1 {
+
+	public Football1() {
+		System.out.println("bean created");
+	}
+}
