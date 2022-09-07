@@ -6,11 +6,16 @@ import com.xworkz.bankrules.BankRules;
 
 public class BankRunner {
 	
-	BankRules bankRules= new BankManagement();
-
-	   Bank bank= new Bank(bankRules);
-	   
+	public static void main(String[] args) {
+		
 	
+	BankRules bankRules=new  BankManagement();
+	
+	Bank bank=new Bank(bankRules);
+	bank.check();
+
+	}
+         
 	
 
 }

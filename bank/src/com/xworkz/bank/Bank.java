@@ -9,7 +9,7 @@ public class Bank {
 	public Bank(BankRules bankRules) {
 		
 		this.bankRules = bankRules;
-		System.out.println("msbjhvscgasx");
+		System.out.println("Constructor created ");
 	}
 	public void check() {
 		boolean passBook = this.bankRules.passBook();
