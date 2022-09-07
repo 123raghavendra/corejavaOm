@@ -1,6 +1,7 @@
 package com.xwrokz.petrolbunk;
 
 public class Follower implements PetrolBunkRules {
+	
 
 	@Override
 	public boolean fireSafety() {
